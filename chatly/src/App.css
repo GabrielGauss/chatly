@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif; */
+    text-decoration: none;
+
+}
+/* NAV */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.Title  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Fredoka One';
+    color: #2d3436;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.Options   {
+    font-family: 'Poppins', sans-serif;
+    color: #2d3436;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 0 3rem;
+    
+}
+
+a {
+    color: #2d3436;
+}
+
+.btn-main {
+        font-family: 'Fredoka One';
+        background-color: #005BCA;
+        /* margin: 10px; */
+        padding: 10px 25px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border: transparent;
+        cursor: pointer;
+
+      }
+
+   
+
+
+/* FIN NAV */
+
+/* HERO MAIN */
+
+.Hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: nowrap;
+
+}
+
+.Banner-right, .Banner-left {
+    width: 25%;
+    padding: 3rem;
+    margin-top: 5rem;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.Hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Hero-title {
+    font-family: 'Fredoka One';
+    color: #2d3436;
+    font-size: 3rem;
+}
+.span-01 {
+    font-family: 'Fredoka One';
+    color: #F86E72;
+    font-size: 5rem;
+}
+
+.Hero-subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.btn-main2{
+    font-family: 'Fredoka One';
+    background-color: #005BCA;
+    /* margin: 10px; */
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: transparent;
+    cursor: pointer;
+  }
+
+
+
+/* FIN HERO MAIN */
+
+/* SPONSORS */
+
+.Sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+    /* width: 3rem; */
+
+}
+
+.Sponsors img {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+    width: 15%;
+    padding: 1rem;
+}
+
+.sponsor-main {
+    display: flex;
+    margin: 6rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* width: 100%; */
+
+}
+
+/*FIN SPONSORS */
