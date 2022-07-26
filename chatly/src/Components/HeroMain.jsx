@@ -9,10 +9,10 @@ export const HeroMain = () => {
       <img src={BannerLeft} alt="banner-left" className='Banner-left' />
 <div className='Hero-text' >
      <div className='Hero-title'>
-        <h1>More than a chat,</h1>
-        <h1>it's <span className='span-01'>BIGGER</span></h1>
+     <h1>  <span className='span-01'>CHATLY </span> <br/> is more than a chat,</h1>
+        <h1>it's <span className='span-01'>BIGGER</span> .</h1>
       </div>
-        <h2 className='Hero-subtitle'>Chatly is the first decentralized mobile messaging app,
+        <h2 className='Hero-subtitle'> is the first decentralized mobile messaging app,
         where your privacy comes first.</h2>
 
        <button className='btn-main2' >Start for Free</button>
